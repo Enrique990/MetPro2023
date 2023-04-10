@@ -15,7 +15,8 @@ int main(int argc, char const *argv[])
         cout << "Dime un #: ";
         cin >> numeros[i];
     }
-    cout << "Los numeros pares son: " << endl;
+    cout << "Los numeros pares son: " << endl;5
+    
     for(int i = 0; i< cant; i++){
         if(numeros[i]%2==0) cout << numeros[i]<< "\n";
     }
